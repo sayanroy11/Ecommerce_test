@@ -17,7 +17,7 @@ public class StandAlone {
 	public static void main(String[] args) throws InterruptedException {
 		String prod="ADIDAS ORIGINAL";
 		WebDriver driver=new ChromeDriver();
-		System.setProperty("web.driver.chromedriver", "F:/selenium/chromedriver");
+		System.setProperty("web.driver.chromedriver", "F:/Courses/selenium/chromedriver");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		Landingpage lp=new Landingpage(driver);
 		lp.goTo();
